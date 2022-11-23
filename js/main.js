@@ -26,5 +26,10 @@ createApp({
         };
         
     },
+    methods: {
+        cancellaDallaLista(indiceDaCancellare){
+            this.listaToDo.splice(indiceDaCancellare, 1)
+        }
+    }
     
 }).mount("#app")

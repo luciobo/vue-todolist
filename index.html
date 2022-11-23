@@ -35,7 +35,7 @@
                                     
                                         <span v-bind:class="listaHTML.fatto === true ? 'text-decoration-line-through' : ''">{{listaHTML.testo}}</span>
                                 </label>
-                                <button class="btn text-danger" @click="cancellaDallaLista"><i class="fa-regular fa-trash-can"></i></button>
+                                <button class="btn text-danger" @click="cancellaDallaLista(i)"><i class="fa-regular fa-trash-can"></i></button>
                             </div>
                         </div>
                     </div>
