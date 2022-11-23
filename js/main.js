@@ -29,6 +29,13 @@ createApp({
     methods: {
         cancellaDallaLista(indiceDaCancellare){
             this.listaToDo.splice(indiceDaCancellare, 1)
+        },
+        
+        bottoneAggiungiToDo(){
+            this.listaToDo.push({
+                testo: this.bottoneAggiungiToDo.testo,
+                fatto: false,
+            })
         }
     }
     
