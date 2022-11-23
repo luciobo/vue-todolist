@@ -14,13 +14,13 @@ createApp({
             listaToDo: [
                 {
                     testo: "contenuto dellla lista 1",
-                    fetto: false,
+                    fatto: false,
                 },{
                     testo: "contenuto dellla lista 2",
-                    fetto: false,
+                    fatto: false,
                 },{
                     testo: "contenuto dellla lista 3",
-                    fetto: false,
+                    fatto: false,
                 },
             ]
         };
