@@ -17,15 +17,21 @@
 <body>
 
     <div id="app">
-        
+
         <main class="container">
             <div class="row justify-content-center">
-                <div class="col-6 text-center">
-                    <h1 class="text-primary my-3">La mia to do list(speriamo)</h1>
-                    <div class="list-group">
-                        <label for="">
-                            esticazzi
-                        </label>
+                <div class="col-6 ">
+                    <h1 class="text-primary my-5 text-center">La mia to do list(speriamo)</h1>
+                    <div class="card shadow">
+                        <div class="list-group list-group-flush">
+                            <div class="list-group-item d-flex align-items-center">
+                                <label class="form-check form-switch flex-fill">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                                    <span class="mx-5"> testo dellla to do list</span>
+                                </label>
+                                <button class="btn text-danger"><i class="fa-regular fa-trash-can"></i></button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
